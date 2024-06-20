@@ -20,7 +20,6 @@ import {
 } from '@payloadcms/richtext-lexical'
 //import { slateEditor } from '@payloadcms/richtext-slate'
 import { buildConfig } from 'payload'
-import sharp from 'sharp'
 import { fileURLToPath } from 'url'
 import { postgresAdapter } from '@payloadcms/db-postgres'
 
@@ -117,5 +116,4 @@ export default buildConfig({
 
   // This is temporary - we may make an adapter pattern
   // for this before reaching 3.0 stable
-  sharp,
 })
